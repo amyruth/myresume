@@ -20,17 +20,23 @@
 		order: -1;
 	}
 
+	.skills {
+		display: flex;
+		justify-content: center;
+	}
 	.skill-list {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		margin: 0;
-		/* align-items: center; */
+		/* margin: 0; */
+		align-items: center;
 		/* flex-wrap: wrap; */
-		/* text-align: center; */
+		text-align: center;
+		/* margin: 0 auto; */
+
 	}
 	.skill-list p {
-		text-align: center;
+		/* text-align: center; */
 	}
 	.res-heading {
 		text-align: center;
