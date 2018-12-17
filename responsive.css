@@ -16,13 +16,28 @@
 	}
 
 	#myname {
-		font-size: 34px;
+		font-size: 26px;
 		order: -1;
 	}
 
-	/* .hidden {
+	.skill-list {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0;
+		/* align-items: center; */
+		/* flex-wrap: wrap; */
+		/* text-align: center; */
+	}
+	.skill-list p {
+		text-align: center;
+	}
+	.res-heading {
+		text-align: center;
+	}
+	.hidden {
 		display: none;
-	} */
+	}
 
 }
 
