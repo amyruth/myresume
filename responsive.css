@@ -45,8 +45,24 @@
 		display: none;
 	}
 
-}
+	dd {
+		font-size: 18px;
+		text-align: center;
+	}
+	/* dd a {
+		display: block;
+	} */
 
+	/* dt {
+		font-size: 18px;
+	} */
+
+	dl{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		/* align-items: center; */
+	}
 
 
 
