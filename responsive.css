@@ -15,6 +15,10 @@
 		align-items: center;
 	}
 
+	.summary {
+		text-align: center;
+	}
+
 	#myname {
 		font-size: 26px;
 		order: -1;
@@ -64,6 +68,16 @@
 		/* align-items: center; */
 	}
 
+	.work-history {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.job {
+		font-size: 16px;
+		text-align: center;
+	}
+}
 
 
 @media screen and (min-width: 1200px) {
