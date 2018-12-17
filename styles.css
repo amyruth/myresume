@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1.2em;
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	/* height: 958px;
+	width: 740px; */
+	width: 90%;
+	border: 2px solid orange;
+	display: flex;
+	flex-direction: column;
+	/* margin-left: 50px;
+	margin-right: 50px; */
+	padding: 30px;
+	/* justify-content: center; */
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid black; */
+	border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	align-items: flex-end;
+	/* font-size: 18px; */
+	/* font-size: 1.2em; */
+}
+
+#myname {
+	font-size: 50px;
+}
+.res-heading {
+	border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+h2 {
+	padding: 5px 0;
+}
+
+header h1 {
+	font-size: 40px;
+	align-self: center;
+	/* letter-spacing: 2px; */
+	margin: 0 10px;
+}
+
+.mail-phone .links {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header p {
+	margin: 5px 0;
+	align-self: center;
+}
+
+.summary {
+	
+	margin: 15px 0;
+	letter-spacing: .25px;
+
+}
+
+section {
+	margin: 15px 0;
+
+
+}
+
+
+
+.skill-list {
+	/* display: grid;
+	grid-template-rows: 33% 33% 33%;
+	grid-template-columns: repeat(3, 1fr); */
+	margin: 0 auto;
+	display: flex;
+	/* flex-direction: column; */
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.skill-list p {
+	margin: 5px 0;
+	/* justify-self: start; */
+	/* align-content: space-between; */
+	/* font-size: 20px; */
+	width: 33.333%;
+}
+
+/* .project-name {
+	font-weight: bold;
+}
+
+.project-desc {
+
+} */
+
+
+
+dd {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+dt {
+	padding-left: 1em;
+	margin-bottom: 20px;
+}
+
+.education p:last-child {
+	margin-top: 10px;
+}
+
+.education span {
+	font-weight: bold;
+}
+
+.job {
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+	letter-spacing: 2px;
+}
+
+.job-desc ul {
+	margin-left: 40px;
+}
+
+ul li {
+	list-style-type: square;
+}
