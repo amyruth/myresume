@@ -5,6 +5,7 @@
 }
 
 body {
+	background-image: url('full-bloom.png');
 	font-family: 'Didact Gothic', sans-serif;
 	font-size: 1.2em;
 	display: flex;
@@ -12,6 +13,7 @@ body {
 }
 
 main {
+	background-color: white;
 	width: 90%;
 	display: flex;
 	flex-direction: column;
