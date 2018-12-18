@@ -1,0 +1,27 @@
+@media print {
+	
+	/* - leave the header info in a flexbox row 
+	- move the name to the center with order property
+	- use margin to push name to a new "row" while keeping the other info neatly spaced */
+	#myname {
+		order: 1;
+		font-size: 36px;
+		margin-bottom: 100px;
+	}
+
+	.links {
+		order: 2;
+	}
+
+	header {
+		justify-content: space-between;
+		font-size: 16px;
+	}
+}
+
+@media print {
+	main {
+		width: 1100px;
+		margin: 0 auto;
+	}
+}
