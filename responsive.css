@@ -89,18 +89,18 @@
 }
 
 /* MAKE NAME FONT BIGGER AFTER 850PX OR SO TO SCALE W/REST OF PAGE */
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 801px) and (max-width: 999px) {
 	
 	/* - leave the header info in a flexbox row 
 	- move the name to the center with order property
 	- use margin to push name to a new "row" while keeping the other info neatly spaced */
 	
-	#myname {
+	/* #myname {
 		order: 1;
 		font-size: 36px;
 		margin-bottom: 100px;
 		white-space: nowrap;
-	}
+	} */
 
 	.links {
 		order: 2;
@@ -108,9 +108,28 @@
 
 	header {
 		justify-content: space-between;
-		font-size: 18px;
+		font-size: 16px;
 	}
 }
+
+@media screen and (min-width: 801px) and (max-width: 850px) {
+	#myname {
+		order: 1;
+		font-size: 36px;
+		margin-bottom: 100px;
+		white-space: nowrap;
+	}
+}
+
+@media screen and (min-width: 851px) and (max-width: 950px) {
+	#myname {
+		order: 1;
+		font-size: 40px;
+		margin-bottom: 100px;
+		white-space: nowrap;
+	}
+}
+
 
 @media screen and (min-width: 1101px) {
 	main {
