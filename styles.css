@@ -5,7 +5,7 @@
 }
 
 body {
-	background-image: url('full-bloom.png');
+	background-image: linear-gradient(0deg,  rgba(117, 106, 165, 0.4), rgba(71, 62, 109, 0.2)), url('full-bloom.png');
 	font-family: 'Didact Gothic', sans-serif;
 	font-size: 1.2em;
 	display: flex;
@@ -22,7 +22,8 @@ main {
 	/* box-shadow:  0 5px 15px 0 rgba(0, 0, 0, .2); */
 	/* box-shadow: -2px -2px 15px 3px rgba(0, 0, 0, .2); */
 	/* box-shadow: 3px -2px 15px 3px rgba(0, 0, 0, .2); */
-	box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, .2);
+	/* box-shadow: 2px 2px 10px 3px rgba(139, 135, 135, 0.4); */
+	box-shadow: 2px 2px 10px 3px rgba(75, 71, 71, 0.4);
 }
 
 header {
@@ -66,7 +67,6 @@ header p {
 }
 
 .summary {
-	
 	margin: 15px 0;
 	letter-spacing: .25px;
 }
